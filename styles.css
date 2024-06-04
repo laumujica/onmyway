@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #4CAF50; /* Color verde similar al botón "Enviar" */
 }
 
 .container {
@@ -52,6 +52,10 @@ button:hover {
     background-color: #45a049;
 }
 
-#qrcode {
-    margin-top: 20px;
+#qrcode > img {
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
 }
+
+

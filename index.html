@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inicio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>Escanea el código QR para llenar el formulario</h1>
-        <div id="qrcode"></div>
+      <h1>Escaneá el QR guachi</h1>
+      <div id="qrcode"></div>
     </div>
     <script>
-        // Generar el QR con el enlace al formulario
-        new QRCode(document.getElementById("qrcode"), "https://tu-usuario.github.io/tu-repositorio/form.html");
+      // Generar el QR con el enlace al formulario
+      new QRCode(
+        document.getElementById("qrcode"),
+        "https://laumujica.github.io/onmyway/form.html"
+      );
     </script>
-</body>
+  </body>
 </html>
